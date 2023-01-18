@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.box {
+  width: 250px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #232418 0%, #3ad59f 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+.title{
+  text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn{
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: none;
+  background-color: #242423;
+  font-size: 19px;
+  color: #fff;
+}
